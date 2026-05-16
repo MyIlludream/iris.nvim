@@ -3,7 +3,7 @@ local M = {}
 function M.get(opts)
   local colors = {
     none = "NONE",
-    bg = "#212121",
+    bg = "#303030",
     bg_dark = "#1a1a1a",
     bg_float = "#1f1f1f",
     bg_highlight = "#2b2b2b",
@@ -31,7 +31,7 @@ function M.get(opts)
     purple = "#b9adff",
     magenta = "#da70d6",
     white = "#ffffff",
-    black = "#1d1f21",
+    black = "#202020",
     cursor = "#ff6969",
     error = "#ff6969",
     warning = "#ffcb6b",
