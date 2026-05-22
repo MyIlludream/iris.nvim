@@ -36,7 +36,7 @@ function M.get(opts)
     error = "#ff6969",
     warning = "#ffcb6b",
     info = "#78d9ff",
-    hint = "#80cbc4",
+    hint = "#676767",
     diff_add = "#9bb955",
     diff_delete = "#f07178",
     diff_change = "#89ddff",
