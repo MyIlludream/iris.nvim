@@ -509,19 +509,3 @@ function M.get(colors, opts)
 end
 
 return M
-ksDashboardKey = { fg = colors.yellow }, -- Snacks Dashboard 按键
-    SnacksIndent = { fg = colors.fg_gutter }, -- Snacks 缩进线
-    SnacksIndentScope = { fg = colors.accent_2 }, -- Snacks 缩进作用域
-  }
-
-  highlights.FloatShadow = { bg = colors.black, blend = 60 } -- 浮动窗口阴影
-  highlights.FloatShadowThrough = { bg = colors.black, blend = 80 } -- 穿透式浮动窗口阴影
-
-  if type(opts.on_highlights) == "function" then
-    opts.on_highlights(highlights, colors)
-  end
-
-  return vim.tbl_deep_extend("force", highlights, opts.highlights or {})
-end
-
-return M
