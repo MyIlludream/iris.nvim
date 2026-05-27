@@ -361,7 +361,7 @@ function M.get(opts)
     syntax_number = orange.orange_600,
     syntax_constant = yellow.yellow_600,
     syntax_boolean = red.red_600,
-    syntax_function = blue.blue_700,
+    syntax_function = purple.purple_600,
     syntax_method = blue.blue_700,
     syntax_type = yellow.yellow_600,
     syntax_field = red.red_600,
